@@ -123,7 +123,7 @@ class AutoClicker:
 
         with mss.mss() as sct:
             V_key_code = 86
-            keyboard.add_hotkey(grave_key_code, self.toggle_script)
+            keyboard.add_hotkey(V_key_code, self.toggle_script)
 
             while True:
                 if self.running:
