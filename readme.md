@@ -3,16 +3,17 @@
 
 ### The script automatically collects all green balls, skipping bombs and freezes
 
-<b>Ability to select the desired number of balls</b>
+Ability to select the desired number of balls
 
-<b>Ability to select the desired number of balls</b>
+Ability to select the desired number of balls
 
-<b>After starting the minigame, press the "ё" key on the keyboard (on/off)</b>
-
+After starting the minigame, press the "`" key on the keyboard (on/off)
+### Usage
+#### Step 1
 ```
 pip install -r requirements.txt
 ```
-
+#### Step 2
 ```
 python main.py
 ```
