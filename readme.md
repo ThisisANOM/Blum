@@ -7,7 +7,7 @@ Ability to select the desired number of balls
 
 Ability to select the desired number of balls
 
-After starting the minigame, press the "V" key on the keyboard (on/off)
+After starting the minigame, press the "`" key on the keyboard (on/off)
 ### Usage
 #### Step 1
 ```
