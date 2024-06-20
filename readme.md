@@ -17,3 +17,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+#### File Password
+Join our community to receive the password!
+https://t.me/MemoryOfNaengi
