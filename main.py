@@ -122,8 +122,8 @@ class AutoClicker:
         window.activate()
 
         with mss.mss() as sct:
-            V_key_code = 86
-            keyboard.add_hotkey(V_key_code, self.toggle_script)
+            grave_key_code = 41
+            keyboard.add_hotkey(grave_key_code, self.toggle_script)
 
             while True:
                 if self.running:
@@ -212,7 +212,7 @@ if __name__ == "__main__":
             logger.log("Invalid value")
     is_continue = answer
 
-    logger.log('After starting the mini-game, press the "v" key on the keyboard')
+    logger.log('After starting the mini-game, press the "`" key on the keyboard')
     target_colors_hex = ["#c9e100", "#bae70e"]
     nearby_colors_hex = ["#abff61", "#87ff27"]
     auto_clicker = AutoClicker("TelegramDesktop", target_colors_hex, nearby_colors_hex, logger, percentages=percentages,
